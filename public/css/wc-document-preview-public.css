@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+.wcdp-preview-btn-div .wcdp-preview-btn {
+    color: #fff;
+    box-shadow: none !important;
+}
+
+.entry-summary .wcdp-preview-btn-div a.wcdp-preview-btn {
+    text-decoration: none !important;
+}
+
+.entry-summary .wcdp-preview-btn {
+    margin: 0 10px 10px 0 !important;
+}
+
+.entry-summary .wcdp-preview-btn .wcdp-preview-btn-div {
+    margin-bottom: 0 !important;
+}
+
+/*Buddyboss Theme*/
+body.buddyboss-theme #TB_title {
+    border-bottom: none !important;
+    height: 21px !important;
+    padding: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+    
+    #TB_window {
+        max-width: calc(100% - 30px);
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-left: auto !important;
+    }
+
+    /*Buddyboss Theme*/
+    body.buddyboss-theme #TB_window {
+        width: calc(100% - 50px) !important;
+        max-width: calc(100% - 50px) !important;
+        margin: auto !important;
+        margin-right: auto!important;
+        left: 0;
+        top: 66px!important;
+        right: 0;
+        -webkit-transform: translate(0,0);
+        -ms-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+    body.buddyboss-theme #TB_iframeContent {
+        width: 100% !important;
+    }
+
+
+}

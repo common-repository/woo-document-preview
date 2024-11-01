@@ -1,0 +1,23 @@
+{
+  "name": "wc-document-preview",
+  "version": "1.0.0",
+  "url": "https://github.com/wbcomdesigns/woo-document-preview",
+  "license": "GPL-2.0+",
+  "description": "This plugin will add an extended feature to the big name “ WooCommerce ” that will allow you to add document preview feature in single product page.",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-wp-i18n": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbcomdesigns/woo-document-preview"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "^3.5.2",
+    "npm": "^8.15.1"
+  }
+}
